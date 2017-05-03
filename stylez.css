@@ -1,0 +1,127 @@
+*{
+  font-family: "Book Antiqua";
+}
+
+html, body{
+  margin: 0;
+  background-color: lightgray;
+}
+
+header{
+  position:fixed;
+  /*background-color:#1b1b1b;*/
+  background-color: rgba(27,27,27,0.8);
+  width: 100%;
+  transition: .4s ease;
+  z-index: 5;
+
+}
+
+header h1{
+  font-family: "Book Antiqua";
+  color: white;
+  /* #37fdcc*/
+  /* #1affda*/
+  /*background-color: #1b1b1b;*/
+  margin: auto;
+  padding: 0.4em;
+  padding-left: 2em;
+  font-size: 2.3em;
+  float:left;
+}
+
+ul{
+  float:right;
+  overflow: hidden;
+  padding-right:3em;
+  margin:0;
+  list-style: none;
+}
+
+li{
+  overflow: hidden;
+  display:inline;
+  width: 5em;
+  cursor: pointer;
+}
+
+li a{
+  padding: 1.5em;
+  color: white;
+  transition:.25s;
+  font-size:1.1em;
+  font-weight: bold;
+  float:left;
+}
+
+li a:hover {
+    background-color: gray;
+}
+a {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
+
+.headerpicture{
+  background-image: url("yes.jpg");
+  background-repeat: repeat;
+  height: 450px;
+  background-position: center center;
+  margin-top:0;
+  background-attachment: fixed;
+}
+
+.profilepic{
+  width: 100%;
+  margin-top: -200px;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+.prof{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:350px;
+  height:350px;
+  border-radius: 10%
+}
+
+
+h2{
+  font-size: 1.5em;
+  margin-bottom:0;
+  padding-left: 1.5em;
+}
+
+.Section1{
+  height:600px;
+  padding: 0.5em 1.5em 1em 1.5em;
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 10px;
+  margin:1em;
+}
+
+.Section1 p{
+  font-size: 1.25em;
+  line-height:1.7em;
+}
+
+.Section2{
+  height:600px;
+  padding: 1.5em;
+}
+
+
+footer{
+  padding:1em;
+  height:15em;
+  background-color: black;
+  width: auto;
+  color: white;
+  font-size: 1em;
+}
+
+.contact h2{
+  padding:0;
+}
