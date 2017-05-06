@@ -23,7 +23,6 @@ Graduating June 2018
 
 Experience
 - SAP Data Science Intern
-- theportal.io Technical Resident
 - UCI eSports Arena Supervisor
 - YEI Engineer Summer Intern
 - HireTeammate Data Entry Operator
