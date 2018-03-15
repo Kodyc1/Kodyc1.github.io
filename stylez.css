@@ -116,16 +116,16 @@ p{
 }
 
 
-.LastSection{
-  /* left:0; */
-  /* bottom:0; */
+#LastSection{
   background-color: black;
-  /* width: 100%; */
+  padding: 2em;
+  width: 100%;
   color: white;
-  /* font-size: 1em; */
+  align-items: center;
+  text-align: center;
 }
 
-ul.contact {
+/* ul.contact {
   list-style: none;
   white-space: nowrap;
   padding:10px;
@@ -136,6 +136,9 @@ ul.contact {
 ul.contact li {
   margin: 1em;
   display:inline-block;
+} */
+.row-fluid{
+  padding:1em;
 }
 .fa-github:hover {
     color: #6e5494;
@@ -143,4 +146,8 @@ ul.contact li {
 
 .fa-linkedin-in:hover {
     color: #0077B5;
+}
+
+.fa-envelope:hover {
+    color: #c0e48e;
 }
