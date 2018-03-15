@@ -31,7 +31,7 @@ header h1{
   cursor: pointer;
 }
 
-ul{
+ul.navbar{
   float:right;
   overflow: hidden;
   padding-right:3em;
@@ -39,14 +39,14 @@ ul{
   list-style: none;
 }
 
-li{
+ul.navbar li{
   overflow: hidden;
   display:inline;
   width: 5em;
   cursor: pointer;
 }
 
-li a{
+ul.navbar li a{
   padding: 1.5em;
   color: white;
   transition:.25s;
@@ -55,9 +55,10 @@ li a{
   float:left;
 }
 
-li a:hover {
+ul.navbar li a:hover {
     background-color: gray;
 }
+
 a {
   color: inherit;
   text-decoration: none; /* no underline */
@@ -93,7 +94,7 @@ a {
   height:600px;
   /*background-color: rgba(0,0,0, 0.4);*/
   border-radius: 10px;
-  margin: auto;
+  /* margin: auto; */
   padding: 0em 5em 1em 5em;
 }
 h3{
@@ -115,14 +116,30 @@ p{
 
 
 .LastSection{
-  left:0;
-  bottom:0;
+  /* left:0; */
+  /* bottom:0; */
   background-color: black;
-  width: 100%;
+  /* width: 100%; */
   color: white;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
-#Contact{
-  margin-left: 2em;
+ul.contact {
+  list-style: none;
+  white-space: nowrap;
+  padding:10px;
+  max-width: 50%;
+
+}
+
+ul.contact li {
+  margin: 1em;
+  display:inline-block;
+}
+.fa-github:hover {
+    color: #6e5494;
+}
+
+.fa-linkedin-in:hover {
+    color: #0077B5;
 }
