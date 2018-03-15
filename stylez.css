@@ -2,37 +2,45 @@
   font-family: "Garamond";
 }
 
+/* page background */
 html, body{
   margin: 0;
-  background-color: white;
+  padding: 0;
+}
+body{
+  background-image: url("yes.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
 }
 
 header{
   position:fixed;
-  /*background-color:#1b1b1b;*/
   background-color: rgba(27,27,27,0.8);
   width: 100%;
   transition: .4s ease;
   z-index: 5;
-  margin:0;
+}
+header a:hover{
+  color:inherit;
+  text-decoration: none;
 }
 
 
-header h1{
-  color: white;
+/* header h1{
+  color: white; */
   /* #37fdcc*/
   /* #1affda*/
-  /*background-color: #1b1b1b;*/
-  margin: auto;
-  padding: 0.4em;
+  /* margin: auto; */
+  /* padding: 0.4em;
   padding-left: 2em;
   font-size: 2.3em;
   float:left;
   cursor: pointer;
-}
+} */
 
-ul.navbar{
-  float:right;
+
+.navbar{
+  align-items: center;
   overflow: hidden;
   padding-right:3em;
   margin:0;
@@ -61,21 +69,22 @@ ul.navbar li a:hover {
 
 a {
   color: inherit;
-  text-decoration: none; /* no underline */
+  text-decoration: none;
 }
 
-.headerpicture{
-  background-image: url("yes.jpg");
-  background-repeat: repeat;
-  height: 450px;
-  background-position: center center;
-  margin-top:0;
-  background-attachment: fixed;
+.profilepic h1 {
+  /* font-family:Helvetica; */
+  font-weight: bold;
+  font-size: 300%;
+  color: white;
+  height: 200px;
+  padding-top: 3em;
+  text-align: center;
+  margin: 0;
 }
 
 .profilepic{
-  width: 100%;
-  margin-top: -200px;
+  /* margin-top: -200px; */
   margin-bottom: 0;
   background-color: transparent;
 }
@@ -90,17 +99,27 @@ a {
   border-radius: 30%;
 }
 
+#hpmp {
+  padding: 1em;
+  margin-top: 1em;
+  width: 70%;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
 
 .Section{
   height:600px;
-  /*background-color: rgba(0,0,0, 0.4);*/
-  border-radius: 10px;
-  /* margin: auto; */
-  padding: 0em 5em 1em 5em;
+  background-color: rgba(25, 25, 25, 0.8);
+  color: white;
+  border-radius: 20px;
+  margin: 2em 10em 2em 10em;
+  padding: 1em 5em 1em 5em;
 }
+
 h3{
   font-size: 3em;
   font-weight: bold;
+  text-align: center;
 }
 p{
   font-size: 2em;
@@ -116,30 +135,19 @@ p{
 }
 
 
-#LastSection{
+/* footer */
+#ContactSection{
   background-color: black;
-  padding: 2em;
-  width: 100%;
   color: white;
+  margin-top: 1em;
+  padding: 3em;
+  padding-bottom: 4em;
+  width: 100%;
   align-items: center;
   text-align: center;
 }
 
-/* ul.contact {
-  list-style: none;
-  white-space: nowrap;
-  padding:10px;
-  max-width: 50%;
-
-}
-
-ul.contact li {
-  margin: 1em;
-  display:inline-block;
-} */
-.row-fluid{
-  padding:1em;
-}
+/* Social media icons at bottom */
 .fa-github:hover {
     color: #6e5494;
 }
