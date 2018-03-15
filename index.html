@@ -34,20 +34,13 @@
 
 <body>
 
-	<!-- Snow Effect
-	<script type="text/javascript" src="https://static.tumblr.com/qsifglb/mZjl87ts1/f8.js"></script>
-
-	<script type="text/javascript">
-		snowStorm.snowColor = '#ffffff';
-		snowStorm.flakesMaxActive = 80;
-	</script> -->
 
 	<header>
 		<!-- <h1><a class='initials'>K.C.</a></h1> -->
 			<ul class='navbar'>
 				<li> <a class='home'>Home</a></li>
 		  	<li> <a class='about'>About</a></li>
-				<li> <a class='education'>Education</a></li>
+				<!-- <li> <a class='education'>Education</a></li> -->
 		  	<li> <a class="resume">Resume</a></li>
 		  	<li> <a class="contact">Contact</a></li>
 			</ul>
@@ -85,24 +78,23 @@
 				Feel free to reach out to me by email!</p>
 	</div>
 
-	<div class="Section">
+	<!-- <div class="Section">
 			<h3 id="Education">Education</h3>
 			<p>University of California, Irvine</p>
 			<p>B.S. in Computer Science, Minor in Mathematics</p>
-
-	</div>
+	</div> -->
 
 	<div id="Projects" class = "Section">
 			<h3>Resume</h3>
 
 			<p><a href="Resume.pdf" target="_blank">View full resume</a></p>
 
-			<p>Select Projects</p>
+			<!-- <p>Select Projects</p> -->
 	</div>
 
 
 	<div class="Section">
-		<p></p>
+		<p>Under Construction</p>
 	</div>
 
 
@@ -132,11 +124,11 @@
 	<!-- navigation -->
 	<script>
 
-		$('.initials').on('click', function(){
+		$('.home').on('click', function(){
 			$("html, body").animate({ scrollTop: $("#Home").offset().top }, '200');
 		});
 		$('.about').on('click', function(){
-			$("html, body").animate({ scrollTop: $("#About").offset().top - 150 }, '200');
+			$("html, body").animate({ scrollTop: $("#About").offset().top - 130 }, '200');
 		});
 		$('.resume').on('click', function(){
 			$("html, body").animate({ scrollTop: $("#Resume").offset().top - 100}, '200');
@@ -146,6 +138,14 @@
 		});
 
 	</script>
+
+	<!-- Snow Effect
+	<script type="text/javascript" src="https://static.tumblr.com/qsifglb/mZjl87ts1/f8.js"></script>
+
+	<script type="text/javascript">
+		snowStorm.snowColor = '#ffffff';
+		snowStorm.flakesMaxActive = 80;
+	</script> -->
 
 </body>
 </html>
