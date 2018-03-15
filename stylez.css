@@ -14,7 +14,7 @@ header{
   width: 100%;
   transition: .4s ease;
   z-index: 5;
-
+  margin:0;
 }
 
 
@@ -79,6 +79,7 @@ a {
   margin-bottom: 0;
   background-color: transparent;
 }
+
 .prof{
   display: block;
   position: relative;
