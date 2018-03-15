@@ -1,0 +1,92 @@
+Kody Cheung
+
+Home
+About
+Contact
+
+Message linkedin.com/in/kodycheung github.io/kodyc1
+
+About
+I am currently a Computer Science and Mathematics double major at the University of California, Irvine.  My areas of interest are Information and Numerical Analysis,
+which focuses on data mining, database management, machine learning, and statistical modeling. While those are my main focus, I am also always open to learning new
+topics within the subject, such as computer networking, computational mathematics, front-end development, and other diverse parts of the field.
+
+
+
+Resume
+
+Education
+University of California, Irvine
+Bachelor of Science in Computer Science, Minor in Mathematics
+Graduating June 2018
+
+
+Experience
+- SAP Data Science Intern
+- UCI eSports Arena Supervisor
+- YEI Engineer Summer Intern
+- HireTeammate Data Entry Operator
+
+View Full Resume
+
+
+Projects
+- CS122B WebApp Database Fabflix using LAMP stack
+- Food Ordering Website using MERN stack
+- Predicting rain from a large dimensional dataset on Kaggle using an ensemble of 6 different models
+- Handoff Helper in Android Studio on Git
+- Implementing Dijkstra's Algorithm in C++ for a strongly connected graph
+
+
+Skills
+Python - intermediate (2 years)
+C++ - intermediate (1 year)
+Excel - intermediate
+
+MySQL - basic (3 months)
+HTML5/CSS3 MongoDB, Node, Express, Mongoose (JS/JQuery) - intermediate (3 months)
+Java - basic (3 months)
+R - basic (ggplot in progress, Shiny in progress)
+x86 Assembly - basic (3 months)
+NoSQL - basic (1 month)
+Tableau - basic (1 month)
+
+Android Studio XML - basic (1 month)
+GNS3 - basic (1 month)
+
+Linux - Oracle Virtual Box (Lubuntu, Xubuntu, Kali Linux)
+
+
+
+Spoken
+English (Fluent)
+Cantonese (Fluent)
+Mandarin (Basic)
+
+Relevant Coursework
+ - ICS 46 Data Structures in C++
+ - CS 161 Design and Analysis of Algorithms
+ - CS 122A Data Management with MySQL and NoSQL
+ - CS 178 Machine Learning and Data Mining
+
+
+kodyc1@uci.edu
+510-364-1322
+
+
+
+Hobbies
+ - Piano
+ - Volunteering at MathCounts competitions
+
+
+
+
+Goals to learn
+ - VHDL
+ - Scala/Spark
+ - Ruby on Rails
+ - PHP
+ - Django/Flask
+ - Cassandra, HBase
+ - Hadoop Stack (Hive, Pig, Flume, Spark, ... )
