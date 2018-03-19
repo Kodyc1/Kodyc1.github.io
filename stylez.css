@@ -8,7 +8,7 @@ html, body{
   padding: 0;
 }
 body{
-  background-image: url("yes.jpg");
+  background-image: url("assets/yes.jpg");
   background-attachment: fixed;
   background-repeat: repeat;
 }
@@ -148,14 +148,14 @@ p{
 }
 
 /* Social media icons at bottom */
-.fa-github:hover {
+.fa-github:hover ,.fa-github:visited{
     color: #6e5494;
 }
 
-.fa-linkedin-in:hover {
+.fa-linkedin-in:hover, .fa-linkedin-in:visited {
     color: #0077B5;
 }
 
-.fa-envelope:hover {
+.fa-envelope:hover, .fa-envelope:visited {
     color: #c0e48e;
 }
